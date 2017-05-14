@@ -3,6 +3,6 @@ import:
 - package: github.com/mattn/go-sqlite3
   version: ~1.2.0
 - package: gopkg.in/kataras/iris.v6
-  version: ~5.0.0
+  version: ~6.0.0
   subpackages:
   - adaptors/httprouter
