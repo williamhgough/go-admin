@@ -5,7 +5,10 @@ node_modules
 
 # production
 build
+/vendor
 
 # misc
 .DS_Store
 npm-debug.log
+/.GOPATH
+/bin
