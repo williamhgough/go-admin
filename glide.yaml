@@ -1,8 +1,8 @@
 package: github.com/williamhgough/go-admin
 import:
+- package: github.com/labstack/echo
+  version: ~3.1.0
+  subpackages:
+  - middleware
 - package: github.com/mattn/go-sqlite3
   version: ~1.2.0
-- package: gopkg.in/kataras/iris.v6
-  version: ~6.0.0
-  subpackages:
-  - adaptors/httprouter
